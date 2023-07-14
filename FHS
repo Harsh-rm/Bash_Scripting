@@ -1,0 +1,14 @@
+harsh@harsh:/$ ls
+bin	dev	lib	libx32		mnt	root	snap		sys	var
+boot	etc	lib32	lost+found	opt	run	srv		tmp
+cdrom	home	lib64	media		proc	sbin	swapfile	usr
+
+Directory type Types of files stored
+
+1.Binary directories – Contains binary or compiled source code files, eg, /bin, /sbin, etc.
+2.Configuration directories – Contains configuration files of the system, eg, /etc, /boot.
+3.Data directories – Stores data files, eg, /home, /root, etc.
+4.Memory directories – Stores device files which doesn’t take up actual hard disk space, eg, /dev, /proc, /sys.
+5.Usr (Unix System Resources) – Contains sharable, read only data, eg, /usr/bin, /usr/lib, etc.
+6.var (variable directory) – Contains larger size data, eg, /var/log, /var/cache, etc.
+7.Non-standard directories – Directories which do not come under standard FHS, eg, lost+found, /run, etc.
